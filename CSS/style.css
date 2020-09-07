@@ -1,11 +1,61 @@
 body{
   text-align: center;
+  background-image: url(../images/cat.gif);
+  margin: 0;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
 h1{
-  margin-top: 5%;
+    font-family: "Nanum Gothic Coding", monospace;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(105, 171, 132);
+    background-color: rgb(167, 210, 25);
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+    margin: 0;
 }
 
 .smaller{
-  margin-top: 15%;
+  margin-top: 13%;
+}
+
+.smaller > section{
+  margin-bottom: 5%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+#facts{
+    font-family: "Coming Soon", cursive;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(84, 84, 84, 0);
+    width: 45%;
+    margin-left: 27%;
+}
+
+button {
+	box-shadow:inset -4px -1px 11px 0px #fce2c1;
+	background:linear-gradient(to bottom, #ffc477 5%, #fb9e25 100%);
+	background-color:#ffc477;
+	border-radius:13px;
+	border:2px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 14px;
+	text-decoration:none;
+	text-shadow:-4px 0px 15px #cc9f52;
+  outline: none;
+}
+button:hover {
+	background:linear-gradient(to bottom, #fb9e25 5%, #ffc477 100%);
+	background-color:#fb9e25;
+}
+button:active {
+	position:relative;
+	top:1px;
 }
